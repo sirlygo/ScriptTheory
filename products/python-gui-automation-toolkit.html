@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python GUI Automation Toolkit — ScriptTheory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <span class="brand-dot"></span>
+        ScriptTheory
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop.html">Shop</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="../shop.html">Back to Shop</a>
+        <a class="btn btn-primary" href="../contact.html">Custom Request</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="product-detail">
+      <div>
+        <span class="badge">Downloadable Toolkit</span>
+        <h1>Python GUI Automation Toolkit</h1>
+        <p class="lead">A modular automation launcher featuring a polished desktop UI, macro recorder, and live run analytics.</p>
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80" alt="Python automation" style="margin-top: 32px;" />
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Overview</h2>
+          <p>This toolkit streamlines repetitive desktop operations through a curated set of Python modules. Launch tasks from a sleek Electron-style interface, configure macros with drag-and-drop blocks, and monitor execution stats in real time. Built on PySide6, PyAutoGUI, and FastAPI for optional remote triggers.</p>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Features</h2>
+          <ul class="list">
+            <li>Macro builder with conditional steps, loops, and error handlers</li>
+            <li>Integrated scheduler for recurring jobs and hotkey triggers</li>
+            <li>Live dashboard with throughput metrics and run history</li>
+            <li>Plugin architecture for adding custom modules or API calls</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Requirements</h2>
+          <ul class="list">
+            <li>Windows 10+ or macOS 12+</li>
+            <li>Python 3.10+</li>
+            <li>Node.js 16+ (optional, for building the desktop shell)</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Setup Steps</h2>
+          <ol class="list">
+            <li>Create a virtual environment and install Python dependencies via <code>pip install -r requirements.txt</code>.</li>
+            <li>Run <code>python manage.py init</code> to generate local config and encryption keys.</li>
+            <li>Optionally install UI shell packages with <code>npm install</code> and build via <code>npm run build</code>.</li>
+            <li>Configure macros in <code>playbooks/</code> and assign to hotkeys inside the UI.</li>
+            <li>Start the toolkit with <code>python manage.py launch</code>.</li>
+          </ol>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>What's Included</h2>
+          <ul class="list">
+            <li>GUI automation app source code</li>
+            <li>Macro templates and sample playbooks</li>
+            <li>UI theme files with dark/light variants</li>
+            <li>Implementation guide with scaling recommendations</li>
+          </ul>
+        </section>
+      </div>
+      <aside>
+        <div class="highlight">$45 — Personal &amp; Commercial License</div>
+        <p style="color: var(--text-secondary);">License: Personal / Commercial use. Redistribution not permitted.</p>
+        <div class="hero-cta" style="margin: 24px 0;">
+          <a class="btn btn-primary" href="#">Add to Cart</a>
+          <a class="btn btn-outline" href="#">Buy Now</a>
+        </div>
+        <p style="color: var(--text-secondary);">Need enterprise auth, remote workers, or cloud dashboards? <a href="../contact.html" style="color: var(--accent);">Request a tailored build</a>.</p>
+        <div class="product-tags" style="margin-top: 32px;">
+          <span class="tag">python</span>
+          <span class="tag">gui</span>
+          <span class="tag">automation</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© ScriptTheory — Clean Code. Smart Automation.</span>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

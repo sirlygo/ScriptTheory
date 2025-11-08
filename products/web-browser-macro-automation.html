@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Browser Macro Automation Script — ScriptTheory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <span class="brand-dot"></span>
+        ScriptTheory
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop.html">Shop</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="../shop.html">Back to Shop</a>
+        <a class="btn btn-primary" href="../contact.html">Custom Request</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="product-detail">
+      <div>
+        <span class="badge">Downloadable Script</span>
+        <h1>Web Browser Macro Automation Script</h1>
+        <p class="lead">Replay optimized web journeys with dynamic form filling, conditional branching, and graceful recovery.</p>
+        <img src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=1200&q=80" alt="Browser automation" style="margin-top: 32px;" />
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Overview</h2>
+          <p>This Selenium-powered automation script records and replays browser actions with environment-aware logic. Inject runtime variables, handle multi-step verifications, and run in headless or full-browser mode. Perfect for QA teams, marketing ops, and data capture workflows.</p>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Features</h2>
+          <ul class="list">
+            <li>Macro builder using YAML scenarios and reusable component blocks</li>
+            <li>Error handling with auto-retry, alert screenshots, and Slack notifications</li>
+            <li>Support for Chrome, Edge, and Firefox with driver management included</li>
+            <li>CLI and scheduler integration for cron or CI/CD usage</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Requirements</h2>
+          <ul class="list">
+            <li>Python 3.9+</li>
+            <li>Latest ChromeDriver, GeckoDriver, or EdgeDriver</li>
+            <li>Network access for target web applications</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Setup Steps</h2>
+          <ol class="list">
+            <li>Install dependencies via <code>pip install -r requirements.txt</code>.</li>
+            <li>Set driver paths in <code>.env</code> or allow auto-download on first run.</li>
+            <li>Create scenarios in <code>scenarios/</code> using provided examples.</li>
+            <li>Run <code>python automate.py --scenario onboarding</code> (or similar) to launch.</li>
+            <li>Review logs and screenshot artifacts in the <code>reports/</code> folder.</li>
+          </ol>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>What's Included</h2>
+          <ul class="list">
+            <li>Browser macro automation source code</li>
+            <li>Scenario templates for onboarding, data capture, and QA flows</li>
+            <li>Notification hooks for Slack/Teams email alerts</li>
+            <li>Comprehensive documentation and troubleshooting guide</li>
+          </ul>
+        </section>
+      </div>
+      <aside>
+        <div class="highlight">$30 — Personal &amp; Commercial License</div>
+        <p style="color: var(--text-secondary);">License: Personal / Commercial use. Redistribution not permitted.</p>
+        <div class="hero-cta" style="margin: 24px 0;">
+          <a class="btn btn-primary" href="#">Add to Cart</a>
+          <a class="btn btn-outline" href="#">Buy Now</a>
+        </div>
+        <p style="color: var(--text-secondary);">Need API integrations, captcha solving, or data pipelines? <a href="../contact.html" style="color: var(--accent);">Request a tailored build</a>.</p>
+        <div class="product-tags" style="margin-top: 32px;">
+          <span class="tag">web automation</span>
+          <span class="tag">python</span>
+          <span class="tag">bot</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© ScriptTheory — Clean Code. Smart Automation.</span>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

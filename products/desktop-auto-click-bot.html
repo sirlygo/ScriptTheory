@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desktop Auto-Click Bot — ScriptTheory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <span class="brand-dot"></span>
+        ScriptTheory
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop.html">Shop</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="../shop.html">Back to Shop</a>
+        <a class="btn btn-primary" href="../contact.html">Custom Request</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="product-detail">
+      <div>
+        <span class="badge">Downloadable Script</span>
+        <h1>Desktop Auto-Click Bot</h1>
+        <p class="lead">Automate pixel-perfect mouse interactions, timing loops, and conditional click sequences to clear repetitive desktop work with confidence.</p>
+        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80" alt="Desktop automation" style="margin-top: 32px;" />
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Overview</h2>
+          <p>This downloadable automation script delivers a reliable auto-click engine built with Python and PyAutoGUI. Configure click coordinates, delays, loop counts, and keyboard interrupts in a clean, commented YAML file. Real-time console logging and optional desktop overlay keep you informed while the bot runs.</p>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Features</h2>
+          <ul class="list">
+            <li>Multi-step click sequences with custom timing per step</li>
+            <li>Hotkey pause/stop controls for safe manual overrides</li>
+            <li>Region targeting and pixel color checks before click execution</li>
+            <li>Session logging and run summaries for compliance or QA review</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Requirements</h2>
+          <ul class="list">
+            <li>Windows or macOS workstation</li>
+            <li>Python 3.9+</li>
+            <li>PyAutoGUI, PyYAML (included in setup script)</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Setup Steps</h2>
+          <ol class="list">
+            <li>Unzip the download and open a terminal in the project folder.</li>
+            <li>Run <code>python -m venv .venv &amp;&amp; source .venv/bin/activate</code> (or <code>.venv\\Scripts\\activate</code> on Windows).</li>
+            <li>Install dependencies with <code>pip install -r requirements.txt</code>.</li>
+            <li>Edit <code>config.yml</code> with your click coordinates, timers, and hotkeys.</li>
+            <li>Launch with <code>python run.py</code> and monitor the console dashboard.</li>
+          </ol>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>What's Included</h2>
+          <ul class="list">
+            <li>Auto-click bot source code</li>
+            <li>Config templates for single and multi-step sequences</li>
+            <li>Documentation PDF with troubleshooting tips</li>
+            <li>License file &amp; update policy</li>
+          </ul>
+        </section>
+      </div>
+      <aside>
+        <div class="highlight">$25 — Personal &amp; Commercial License</div>
+        <p style="color: var(--text-secondary);">License: Personal / Commercial use. Redistribution not permitted.</p>
+        <div class="hero-cta" style="margin: 24px 0;">
+          <a class="btn btn-primary" href="#">Add to Cart</a>
+          <a class="btn btn-outline" href="#">Buy Now</a>
+        </div>
+        <p style="color: var(--text-secondary);">Need custom triggers, API calls, or analytics? <a href="../contact.html" style="color: var(--accent);">Request a tailored build</a>.</p>
+        <div class="product-tags" style="margin-top: 32px;">
+          <span class="tag">python</span>
+          <span class="tag">desktop bot</span>
+          <span class="tag">automation</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© ScriptTheory — Clean Code. Smart Automation.</span>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

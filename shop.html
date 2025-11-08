@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Scripts — ScriptTheory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <span class="brand-dot"></span>
+        ScriptTheory
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="services.html">Custom Work</a>
+        <a class="btn btn-primary" href="contact.html">Request Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <span class="badge">Digital Downloads</span>
+        <h1>Automation Shop</h1>
+        <p class="lead">Browse production-ready bots, automation scripts, and UI kits. Each download includes detailed documentation, configuration presets, and support guidance.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="contact.html">Need custom features?</a>
+          <a class="btn btn-outline" href="#catalog">View catalog</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="catalog">
+      <div class="section-header">
+        <h2 class="section-title">Downloadable Tools</h2>
+        <p class="section-subtitle">Click any card to see full details, requirements, and licensing information.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card product-card">
+          <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80" alt="Desktop bot" />
+          <h3>Desktop Auto-Click Bot</h3>
+          <p>Automate precise desktop clicks, loops, and conditional triggers for repetitive workflows.</p>
+          <div class="product-meta">
+            <span>$25</span>
+            <a href="products/desktop-auto-click-bot.html">View Details</a>
+          </div>
+          <div class="product-tags">
+            <span class="tag">python</span>
+            <span class="tag">automation</span>
+            <span class="tag">desktop bot</span>
+          </div>
+          <a class="btn btn-primary" href="products/desktop-auto-click-bot.html">Open Product</a>
+        </article>
+
+        <article class="card product-card">
+          <img src="https://images.unsplash.com/photo-1535303311164-664fc9ec6532?auto=format&fit=crop&w=800&q=80" alt="Android automation" />
+          <h3>Android ADB Farm Bot</h3>
+          <p>Schedule device rotations, manage multi-account sessions, and capture metrics via ADB.</p>
+          <div class="product-meta">
+            <span>$35</span>
+            <a href="products/android-adb-farm-bot.html">View Details</a>
+          </div>
+          <div class="product-tags">
+            <span class="tag">adb</span>
+            <span class="tag">bot</span>
+            <span class="tag">automation</span>
+          </div>
+          <a class="btn btn-primary" href="products/android-adb-farm-bot.html">Open Product</a>
+        </article>
+
+        <article class="card product-card">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80" alt="Python toolkit" />
+          <h3>Python GUI Automation Toolkit</h3>
+          <p>Drag-and-drop macros, hotkeys, and overlay dashboards powered by PyAutoGUI and Typer.</p>
+          <div class="product-meta">
+            <span>$45</span>
+            <a href="products/python-gui-automation-toolkit.html">View Details</a>
+          </div>
+          <div class="product-tags">
+            <span class="tag">python</span>
+            <span class="tag">gui</span>
+            <span class="tag">automation</span>
+          </div>
+          <a class="btn btn-primary" href="products/python-gui-automation-toolkit.html">Open Product</a>
+        </article>
+
+        <article class="card product-card">
+          <img src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=800&q=80" alt="Web browser automation" />
+          <h3>Web Browser Macro Automation Script</h3>
+          <p>Replay optimized browser sequences with variable injection, error recovery, and headless options.</p>
+          <div class="product-meta">
+            <span>$30</span>
+            <a href="products/web-browser-macro-automation.html">View Details</a>
+          </div>
+          <div class="product-tags">
+            <span class="tag">web automation</span>
+            <span class="tag">python</span>
+            <span class="tag">bot</span>
+          </div>
+          <a class="btn btn-primary" href="products/web-browser-macro-automation.html">Open Product</a>
+        </article>
+
+        <article class="card product-card">
+          <img src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=800&q=80" alt="HTML dashboard" />
+          <h3>HTML Dashboard Template</h3>
+          <p>Responsive analytics dashboard with chart hooks, theme toggles, and modular components.</p>
+          <div class="product-meta">
+            <span>$20</span>
+            <a href="products/html-dashboard-template.html">View Details</a>
+          </div>
+          <div class="product-tags">
+            <span class="tag">html</span>
+            <span class="tag">template</span>
+            <span class="tag">ui</span>
+          </div>
+          <a class="btn btn-primary" href="products/html-dashboard-template.html">Open Product</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© ScriptTheory — Clean Code. Smart Automation.</span>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
