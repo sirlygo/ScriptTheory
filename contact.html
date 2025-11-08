@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact ScriptTheory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <span class="brand-dot"></span>
+        ScriptTheory
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="shop.html">Shop Scripts</a>
+        <a class="btn btn-primary" href="services.html">View Services</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <span class="badge">Contact</span>
+        <h1>Request a Project</h1>
+        <p class="lead">Tell ScriptTheory what you need and receive a tailored quote within 24 hours.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#request-form">Start Your Brief</a>
+          <a class="btn btn-outline" href="services.html">Review Packages</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="request-form">
+      <div class="contact-wrapper">
+        <form>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="name@email.com" required />
+          </label>
+          <fieldset class="checkbox-group">
+            <legend style="color: var(--text-secondary); font-weight: 600; margin-bottom: 8px;">What do you need?</legend>
+            <label><input type="checkbox" name="services" value="Python" /> Python</label>
+            <label><input type="checkbox" name="services" value="HTML" /> HTML</label>
+            <label><input type="checkbox" name="services" value="Desktop Bot" /> Desktop Bot</label>
+            <label><input type="checkbox" name="services" value="Android ADB Bot" /> Android ADB Bot</label>
+            <label><input type="checkbox" name="services" value="Web Automation" /> Web Automation</label>
+            <label><input type="checkbox" name="services" value="Full App" /> Full App</label>
+          </fieldset>
+          <label>
+            Project Summary
+            <textarea name="summary" placeholder="Describe the workflow, goal, and current tools."></textarea>
+          </label>
+          <label>
+            Budget Range
+            <select name="budget" required>
+              <option value="" disabled selected>Select budget</option>
+              <option value="100-300">$100 – $300</option>
+              <option value="400-1000">$400 – $1,000</option>
+              <option value="1000-3000">$1,000 – $3,000</option>
+              <option value="3000+">$3,000+</option>
+            </select>
+          </label>
+          <label>
+            Timeline
+            <select name="timeline" required>
+              <option value="" disabled selected>Select timeline</option>
+              <option value="1-2 weeks">1 – 2 weeks</option>
+              <option value="2-4 weeks">2 – 4 weeks</option>
+              <option value="1-2 months">1 – 2 months</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </label>
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <p style="color: var(--text-secondary); margin: 0;">I respond within 24 hours.</p>
+        </form>
+        <aside class="info-card">
+          <h3 style="margin-top: 0;">What happens next?</h3>
+          <p style="color: var(--text-primary);">You'll receive a follow-up outlining scope, timeline, and next steps.</p>
+          <p style="color: var(--text-primary); font-weight: 600;">Custom Work Quote Prompt</p>
+          <pre style="margin: 0;">Thank you for your request. To provide an accurate quote, I need to confirm:
+1. The platform/environment
+2. The workflow being automated
+3. Expected inputs/outputs
+4. Whether a UI is required
+5. Budget range and timeline</pre>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© ScriptTheory — Clean Code. Smart Automation.</span>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

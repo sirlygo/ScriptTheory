@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Android ADB Farm Bot — ScriptTheory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <span class="brand-dot"></span>
+        ScriptTheory
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop.html">Shop</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="../shop.html">Back to Shop</a>
+        <a class="btn btn-primary" href="../contact.html">Custom Request</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="product-detail">
+      <div>
+        <span class="badge">Downloadable Script</span>
+        <h1>Android ADB Farm Bot</h1>
+        <p class="lead">Automate fleets of Android devices with synchronized task rotations, data capture, and smart cooldowns.</p>
+        <img src="https://images.unsplash.com/photo-1535303311164-664fc9ec6532?auto=format&fit=crop&w=1200&q=80" alt="Android automation" style="margin-top: 32px;" />
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Overview</h2>
+          <p>This ADB-powered automation suite controls multiple connected Android devices from one dashboard. Schedule task waves, send scripted tap/swipe commands, collect screenshots, and log performance results. Designed for game farming, QA labs, and marketing teams managing multi-account workflows.</p>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Features</h2>
+          <ul class="list">
+            <li>Device manager with auto-discovery and connectivity health checks</li>
+            <li>Task queue with randomized offsets to mimic human behavior</li>
+            <li>Screenshot capture, OCR hooks, and CSV reporting</li>
+            <li>Command presets for taps, swipes, text input, and app restarts</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Requirements</h2>
+          <ul class="list">
+            <li>Windows, macOS, or Linux workstation with ADB installed</li>
+            <li>Python 3.10+</li>
+            <li>Connected Android devices with USB debugging enabled</li>
+          </ul>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>Setup Steps</h2>
+          <ol class="list">
+            <li>Install Android Platform Tools and ensure <code>adb devices</code> lists your phones/tablets.</li>
+            <li>Clone/unzip the project and create a virtual environment.</li>
+            <li>Install requirements using <code>pip install -r requirements.txt</code>.</li>
+            <li>Populate <code>devices.yml</code> with device aliases and target apps.</li>
+            <li>Launch <code>python manager.py</code> to open the control console.</li>
+          </ol>
+        </section>
+        <section class="section" style="padding-top: 40px; padding-bottom: 0;">
+          <h2>What's Included</h2>
+          <ul class="list">
+            <li>ADB farm bot source code</li>
+            <li>Device manager GUI and CLI launchers</li>
+            <li>Sample task templates and rotation schedules</li>
+            <li>Documentation covering scaling tips and troubleshooting</li>
+          </ul>
+        </section>
+      </div>
+      <aside>
+        <div class="highlight">$35 — Personal &amp; Commercial License</div>
+        <p style="color: var(--text-secondary);">License: Personal / Commercial use. Redistribution not permitted.</p>
+        <div class="hero-cta" style="margin: 24px 0;">
+          <a class="btn btn-primary" href="#">Add to Cart</a>
+          <a class="btn btn-outline" href="#">Buy Now</a>
+        </div>
+        <p style="color: var(--text-secondary);">Need integration with APIs, spreadsheets, or remote triggers? <a href="../contact.html" style="color: var(--accent);">Request a tailored build</a>.</p>
+        <div class="product-tags" style="margin-top: 32px;">
+          <span class="tag">adb</span>
+          <span class="tag">automation</span>
+          <span class="tag">bot</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© ScriptTheory — Clean Code. Smart Automation.</span>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
