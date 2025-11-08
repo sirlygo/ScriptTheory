@@ -468,28 +468,21 @@ textarea:focus {
   box-shadow: var(--shadow);
 }
 
-.resources {
+.info-card .info-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
   display: grid;
-  gap: 24px;
-  margin-top: 28px;
+  gap: 12px;
+  color: var(--text-primary);
+  font-weight: 400;
 }
 
-.resource-card {
-  background: var(--surface);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-}
-
-.resource-card pre {
-  white-space: pre-wrap;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  background: rgba(0, 0, 0, 0.25);
-  padding: 16px;
+.info-card .info-list li {
+  background: rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-md);
+  padding: 12px 16px;
+  border: 1px solid rgba(0, 191, 166, 0.2);
 }
 
 footer {
